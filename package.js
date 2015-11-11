@@ -1,6 +1,6 @@
 Package.describe({
   name: 'hunternet93:kurento-utils',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: "Wrapper for Kurento's kurento-utils package.",
   git: 'https://github.com/hunternet93/meteor-kurento-utils',
   documentation: 'README.md'
@@ -16,5 +16,5 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use(['cosmos:browserify@0.2.0'], 'client');
   api.addFiles(['kurento-utils.browserify.js'], 'client');
-  api.export('WebRTCPeer', 'client');
+  api.export('WebRtcPeer', 'client');
 });
