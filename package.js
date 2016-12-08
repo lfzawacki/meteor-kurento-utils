@@ -1,6 +1,6 @@
 Package.describe({
-  name: 'hunternet93:kurento-utils',
-  version: '0.0.2',
+  name: 'lfzawacki:kurento-utils',
+  version: '0.0.3',
   summary: "Wrapper for Kurento's kurento-utils package.",
   git: 'https://github.com/hunternet93/meteor-kurento-utils',
   documentation: 'README.md'
@@ -9,7 +9,7 @@ Package.describe({
 Npm.depends({
   'uuid': '2.0.1',
   'kurento-browser-extensions': '0.0.2',
-  'kurento-utils': '6.1.0'
+  'kurento-utils': '6.6.0'
 });
 
 Package.onUse(function(api) {
